@@ -12,7 +12,7 @@ pool:
 jobs:
   - job: One
     steps:
-    - bash: lmp
+    - bash: touch adi
   - job: secound
     dependsOn: One
     steps:
