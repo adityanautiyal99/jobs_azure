@@ -25,4 +25,5 @@ jobs:
       inputs:
         artifactName: WebSite
         downloadPath: $(System.DefaultWorkingDirectory)
+    - bash: cd WebSite
     - bash: touch di && ls
